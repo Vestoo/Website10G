@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Образователен уебсайт</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Начало</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lessons.html">Уроци</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">За Нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакти</a>
+              </li>
+      </nav>
+    </div>
+      <main class="container">
+        <section id="content" class="col-12 col-md-8">
+          <form action="/action_page.php">
+              <div class="form-group">
+                  <label for="name">Име:</label>
+                  <input 
+                  type="text" 
+                  class="form-control"
+                  placeholder="Вашето име:"
+                  name="name" 
+                  id="name"
+              />
+              </div>
+              <div class="form-group">
+                <label for="email">Имейл адрес:</label>
+                <input 
+                type="email" 
+                class="form-control" 
+                placeholder="Вашия Имейл:"
+                id="email"
+              />
+              </div>
+              <div class="form-group">
+                  <label for="phone">Телефон:</label>
+                  <input 
+                  type="tel" 
+                  class="form-control"
+                  placeholder="Вашия телефон:"
+                  name="phone" 
+                  id="phone"
+              />
+              </div>
+              <div class="form-group">
+                  <label for="subject">Тема:</label>
+                  <input 
+                  type="text" 
+                  class="form-control"
+                  placeholder="Вашата тема:"
+                  name="subject" 
+                  id="subject"
+              />
+              </div>
+              <div class="form-group">
+                  <label for="message">Съобщение:</label>
+                  <textarea 
+                  name="message" 
+                  id="message"
+                  rows="8"
+                  class="form-control"
+                  placeholder="Вашето съобщение:"
+                  ></textarea>
+              </div>
+              <button 
+              type="submit" 
+              class="btn btn-primary py-1">Прати</button>
+            </form>
+      </section>
+      </main>
+    <script src="js/main.js"></script>
+    <footer>
+      <div class="bg-depresiq text-white text-center p-3">
+        <p>Всички права запазени &copy; 2021</p>
+      </div>
+    </footer>
+</body>
+</html>
