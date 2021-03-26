@@ -11,3 +11,18 @@ body{
 .bg-depresiq{
     background-color: #343A40;
 }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutUS{
+    font-size: 1.5rem;
+}
+
+.info{
+    font-size: 1.4rem;
+}
