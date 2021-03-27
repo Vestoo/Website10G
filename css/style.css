@@ -26,3 +26,13 @@ body{
 .info{
     font-size: 1.4rem;
 }
+
+.lesson{
+    font-size: 1.3rem;
+}
+
+aside{
+    width: 50%;
+    display: block;
+    
+}
