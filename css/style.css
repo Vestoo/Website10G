@@ -5,7 +5,8 @@ main{
 }
 
 body{
-    background-color: grey;
+    background-color: white;
+    color: #50575d;
 }
 
 .bg-depresiq{
@@ -29,10 +30,13 @@ body{
 
 .lesson{
     font-size: 1.3rem;
+
 }
 
-aside{
-    width: 50%;
-    display: block;
-    
+.author{
+    background-color: rgb(52, 58, 64);
+}
+
+.ivanvazov{
+    max-width: 100%;
 }
